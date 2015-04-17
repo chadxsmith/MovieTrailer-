@@ -3,7 +3,7 @@
  * listed below.
  *
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
  *
  * You're free to add application-wide styles to this file and they'll appear at the bottom of the
  * compiled file so the styles you add here take precedence over styles defined in any styles
@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+
+.test {
+	padding-top: 200px;
+}
+
+.header__nav {
+	float: right;
+	padding-top: 20px;
+}
+.header__nav li {
+	float: left;
+	list-style-type: none; 
+	padding-left: 10px;
+
+}
+.page {
+	color: grey;
+ 	font-family: "Dosis", serif;
+}
+.nav__container {
+	border-bottom: 10px;
+	font-family: "Dosis", serif;
+} 
+
+
+.header__xs {
+  color: #b9b7b7;
+  font-size: 3em;
+  font-weight: 300;
+}
+
+
+.poster {
+	float: right;
+}

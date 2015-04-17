@@ -6,7 +6,7 @@ class CreateMovies < ActiveRecord::Migration
       t.string :plot
       t.text :poster_url
       t.timestamps
-
+      
     end
   end
 end

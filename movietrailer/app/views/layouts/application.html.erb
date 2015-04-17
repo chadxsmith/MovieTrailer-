@@ -3,10 +3,48 @@
 <head>
   <title>Movietrailer</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag 'application', 'http://fonts.googleapis.com/css?family=Dosis:300,400,500,600' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+<div class="page">
+
+      <div class="container">
+
+		    <div class="row">
+
+		        <div class="col-md-12">
+
+
+		            <ul class="header__nav">
+
+		            	<div class="header__a">
+
+			                <li><a href="#"></a>ABOUT</li>
+			                <li><a href=""></a>BLOG</li>
+			                 <li><a href=""></a>HELP</li>
+			                 <li><a href=""></a>CONTACT</li>
+
+		                 </div>
+
+		                 <div class="header__search">
+								<input type="text" class="form-control" placeholder="Search for...">
+
+		                 </div>
+						
+
+
+		            </ul> <!-- end of header__nav -->
+
+		        </div><!-- end of col-md-12 -->
+
+     		 </div><!-- end of col-md-12 -->  
+
+</div> <!-- end of page --> 
+
+
 
 <%= yield %>
 
