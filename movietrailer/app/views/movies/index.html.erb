@@ -1,18 +1,19 @@
 <div class="container">
   <div class="row">
     <div class="col-md-3">
-      <h2 class="header__xs">Movies</h2>
+      <h2 class="test_xs">Movies</h2>
+      <br>
     </div>
   </div>
 </div> <!-- end of container -->
 
 <div class="container">
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-5">
 
       <% @movies.each do |movie| %>
 
-        <h2 class=tester>Title:<%= link_to movie.title, movie %> </h2>
+        <h2 class=tester><%= link_to movie.title, movie %> </h2>
 
       <% end %>
 

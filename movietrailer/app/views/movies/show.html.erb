@@ -8,11 +8,11 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-3">
-			<br>
-			<h2 class="tester">Title:<%=@movie.title%></h2>
-			<h2 class="tester">Year:<%=@movie.year%></h2>
-			<h2 class="tester"><span class="test_small">Plot:<%=@movie.plot%></span></h2>
+		<div class="col-md-7">
+
+			<h2 class="tester"><%=@movie.title%></h2>
+			<h2 class="tester"><%=@movie.year%></h2>
+			<h2 class="tester"><span class="test_small"><%=@movie.plot%></span></h2>
 
 			 <div class="btn-group" role="group">
 
@@ -27,7 +27,7 @@
 
 
 
-		<div class="col-md-9">
+		<div class="col-md-5">
 			<br>
 			 <div class="poster">
 				<img src="<%=@movie.poster_url %>">

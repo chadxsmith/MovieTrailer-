@@ -14,9 +14,26 @@
  *= require_self
  */
 
+
+input {
+	padding-bottom: 4px
+}
+
+a {
+	font-family: "Dosis", serif;
+  color: #b9b7b7;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.test_xs {
+  color: #b9b7b7;
+  font-size: 3em;
+  font-weight: 300;
+}
+}
 .test_small {
-	font-size: 12px;
-	line-height: 10px;
+	colo
 }
 
 .header_movie {
