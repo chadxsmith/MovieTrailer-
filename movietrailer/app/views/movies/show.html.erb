@@ -9,26 +9,28 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-3">
-			<h2>Title:<%=@placeholder%></h2>
-			<h2>Year:<%=@placeholder%></h2>
-			<h2>Poster:<%=@placeholder%></h2>
-			<h2>Plot:<%=@placeholder%></h2>
-			<h2>Actor:<%=@placeholder%></h2>
+			<br>
+			<h2 class="tester">Title:<%=@movie.title%></h2>
+			<h2 class="tester">Year:<%=@movie.year%></h2>
+			<h2 class="tester"><span class="test_small">Plot:<%=@movie.plot%></span></h2>
+
 			 <div class="btn-group" role="group">
-   				 <button type="button" class="btn btn-default">Favorite</button>
-   				 <button type="button" class="btn btn-default">Trailer</button>
+
+				<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-default" role="button">Trailer</a>
+
  			 </div>
 
  			<br>
  			<br>
- 			<a href="#">Back</a>
+ 			<a href="/movies">Back</a>
 		</div>
 
 
 
 		<div class="col-md-9">
+			<br>
 			 <div class="poster">
-				<img src="http://ia.media-imdb.com/images/M/MV5BMjM1NTUzMzU5NF5BMl5BanBnXkFtZTgwNDAxNzQxMTE@._V1_SY317_CR0,0,214,317_AL_.jpg">  	
+				<img src="<%=@movie.poster_url %>">
     	</div>
 
 	</div>
